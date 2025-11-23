@@ -7,6 +7,8 @@ TagManager:
   - Llave
   - Muro
   - Agujero
+  - Suelo
+  - AgujeroFinal
   layers:
   - Default
   - TransparentFX

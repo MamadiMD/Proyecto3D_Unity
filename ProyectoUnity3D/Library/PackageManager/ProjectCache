@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638991692109132706
-    m_Hash: 2212270155
+      ticks: 638994959320341819
+    m_Hash: 3140484614
   m_LockFileStatus:
     m_FilePath: C:/PMDM/Proyecto3D/Proyecto3D_Unity/ProyectoUnity3D/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638991692109142699
-    m_Hash: 3975737542
+      ticks: 638994959320416311
+    m_Hash: 3015196260
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,65 @@ m_LocalPackages:
 m_ProjectPath: C:/PMDM/Proyecto3D/Proyecto3D_Unity/ProyectoUnity3D/Packages
 m_EditorVersion: 2022.3.62f1 (4af31df58517)
 m_ResolvedPackages:
+- packageId: com.unity.2d.sprite@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: C:\PMDM\Proyecto3D\Proyecto3D_Unity\ProyectoUnity3D\Library\PackageCache\com.unity.2d.sprite@1.0.0
+  assetPath: Packages/com.unity.2d.sprite
+  name: com.unity.2d.sprite
+  displayName: 2D Sprite
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: Use Unity Sprite Editor Window to create and edit Sprite asset properties
+    like pivot, borders and Physics shape
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - 2d
+  - sprite
+  - sprite editor window
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.2d.tilemap@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -174,6 +233,7 @@ m_ResolvedPackages:
     - 4.3.1
     - 5.0.0
     - 5.0.1
+    - 5.0.2
     - 6.0.0
     - 6.0.1
     - 7.0.0
@@ -580,6 +640,7 @@ m_ResolvedPackages:
     - 6.0.5
     - 6.0.6
     - 6.0.7
+    - 6.0.8
     compatible:
     - 5.2.4
     recommended: 5.2.4
@@ -3163,10 +3224,20 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.1.0-preview.4
+    - 0.1.0-preview.8
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 2.0.0
+    - 2.0.1
     - 2.1.0
+    - 2.1.1
     compatible:
     - 2.1.0
-    recommended: 2.1.0
+    - 2.1.1
+    recommended: 2.1.1
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -3181,7 +3252,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638792046006940000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.settings-manager@2.1/manual/index.html
   hasRepository: 1
   repository:

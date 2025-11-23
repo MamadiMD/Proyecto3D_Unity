@@ -20,6 +20,9 @@ public class CinematicaImagen : MonoBehaviour
 
     public TMP_Text textoFinal;
 
+    public AudioSource audioSource;
+    public AudioClip hoyo;
+
 
     private void Start()
     {
@@ -37,6 +40,7 @@ public class CinematicaImagen : MonoBehaviour
     {
         if (collision.collider.CompareTag("AgujeroFinal"))
         {
+            audioSource.PlayOneShot(hoyo);
             canvasFinal.SetActive(true);
             TMP_Text elegido = null;
             elegido = textoFinal;
@@ -46,6 +50,7 @@ public class CinematicaImagen : MonoBehaviour
         
         if (collision.collider.CompareTag("Agujero"))
     {
+        audioSource.PlayOneShot(hoyo);
         CambiarACamaraCanvas();
         StartCoroutine(MostrarResultado());
     }
@@ -56,9 +61,9 @@ public class CinematicaImagen : MonoBehaviour
         canvasFinal.SetActive(true);
 
         TMP_Text elegido = null;
-        if (contadorGolpes <= 15)
+        if (contadorGolpes <= 8)
             elegido = textoPerfecto;
-        else if ( contadorGolpes > 15 && contadorGolpes <= 25)
+        else if ( contadorGolpes > 8 && contadorGolpes <= 16)
             elegido = textoBien;
         else
             elegido = textoRegular;

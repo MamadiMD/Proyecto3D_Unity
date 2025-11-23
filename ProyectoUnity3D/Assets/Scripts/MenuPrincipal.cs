@@ -5,19 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class MenuPrincipal : MonoBehaviour
 {
-    public GameObject instructionMenu;
-    public GameObject mainMenu;
-
     public void OpenInstructions()
     {
-        mainMenu.SetActive(false);
-        instructionMenu.SetActive(true);
+        SceneManager.LoadScene("Instrucciones");
     }
 
     public void OpenMain()
     {
-        instructionMenu.SetActive(false);
-        mainMenu.SetActive(true);
+        SceneManager.LoadScene("MenuInicio");
     }
 
     public void QuitGame()

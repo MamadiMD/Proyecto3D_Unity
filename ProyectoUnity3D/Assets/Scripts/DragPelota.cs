@@ -14,6 +14,10 @@ public class DragPelota : MonoBehaviour
 
     private bool puedeGolpear = true;
 
+    public AudioClip golpeo;
+    public AudioSource audioSource;
+    
+
     private Camera cam;
     private Rigidbody rb;
     private bool dragging = false;
@@ -58,6 +62,8 @@ public class DragPelota : MonoBehaviour
 
         if (!puedeGolpear)
         return; 
+
+        audioSource.PlayOneShot(golpeo);
 
         dragging = false;
         lineRenderer.enabled = false;
